@@ -1,0 +1,22 @@
+#header_area{width: 100%; padding: 10px 0;}
+#header_area .col-md-3{}
+/*
+
+#header_area .col-md-3 a img{height: 70px;}
+*/
+#header_area .col-md-9{}
+#header_area .col-md-9 ul{list-style: none; text-align: right;}
+#header_area .col-md-9 ul li{display: inline-block;  position: relative;}
+#header_area .col-md-9 ul li a{padding: 40px  20px; display: block; color: black; text-decoration: none;}
+#header_area .col-md-9 ul li a:hover{color: crimson; background: cyan;}
+/*dropdown*/
+#header_area .col-md-9 ul li ul{    position: absolute;
+    width: 200px;
+    background: aquamarine no-repeat;
+    text-align: left;
+    left: -99999px;
+    top: 94px;}
+    #header_area .col-md-9 ul li:hover ul{left: 0; }
+#header_area .col-md-9 ul li ul li{display: block;}
+#header_area .col-md-9 ul li ul li a{color: black; padding: 10px 8px;}
+#header_area .col-md-9 ul li ul li a:hover{background: white; color: black; transition: 0.4s;}
